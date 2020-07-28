@@ -1,0 +1,1 @@
+Unique 8-bit style web to invite friends to the wedding. Using get it recognizes visitor and displays unique text. Tracks every answer and informs web owner about visitor actions. Also sends email with details to the visitor.
