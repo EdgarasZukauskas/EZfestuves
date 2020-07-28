@@ -1,0 +1,104 @@
+body {
+  font-family: "Press Start 2P";
+  background-image: url("../../includes/images/hearts.png");
+  background-repeat: repeat;
+}
+
+.loginText {
+  margin: 50px 0px 0px 0px;
+}
+
+.nes-balloon {
+  border-image-repeat: unset;
+}
+
+.nes-balloon {
+  max-width: 80%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.from-left {
+  display: inherit;
+  margin-left: 0;
+  margin-right: auto;
+  text-align: left;
+}
+
+.from-right {
+  display: inherit;
+  margin-right: 0;
+  margin-left: auto;
+  text-align: left;
+}
+
+.nes-container {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  background-color: #FFFFFF;
+}
+
+.title {
+  font-size: 20px !important;
+}
+
+.options {
+  text-align: center;
+  display: none;
+}
+
+.nes-btn {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+.message  {
+  display: none;
+}
+
+.answer  {
+  display: none;
+}
+
+.is-error {
+  color: red;
+}
+
+.is-success {
+  color: green;
+}
+
+@media (max-width: 800px) {
+
+  .nes-container {
+    width: 95%;
+    position: relative;
+    padding: 1.5rem 1rem;
+  }
+
+  .nes-btn {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .nes-balloon {
+    max-width: 90%;
+    font-size: 15px;
+
+  }
+
+  .title {
+    font-size: 15px !important;
+  }
+
+  .answer {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+}
